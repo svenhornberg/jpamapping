@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: mapex
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: witt
+Implementation-Vendor-Id: com.mapex
+Build-Jdk: 1.8.0_91
+Implementation-URL: http://projects.spring.io/spring-boot/mapex/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
