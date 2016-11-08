@@ -36,8 +36,8 @@ public class Product {
 	@ElementCollection(fetch=FetchType.EAGER)
 	@CollectionTable(name="COMPLEXKEY", joinColumns= @JoinColumn(name = "product_id"))
 	@AttributeOverrides({
-		@AttributeOverride(name="name", column = @Column(name= "name")),
-		@AttributeOverride(name="locale", column = @Column(name= "locale")),
+		@AttributeOverride(name="key.name", column = @Column(name= "name")),
+		@AttributeOverride(name="key.locale", column = @Column(name= "locale")),
 	})
 	private Map<ComplexKey, String> attributes; 
 }
